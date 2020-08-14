@@ -1,0 +1,5 @@
+kill TCP connections in Linux:
+
+$netstat -ntl
+$fuser XXXX/tcp
+$sudo fuser -k XXXX/tcp
